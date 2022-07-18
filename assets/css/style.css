@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  font-family:sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+/*NAVIGATION BAR AND LOGO*/
+
+nav{
+  height:100px;
+}
+
+header a{
+  text-decoration: none;
+}
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+}
+
+#logo {
+  float: left;
+  font-size: 280%;
+}
+
+#menu, #logo {
+  line-height: 75px;
+}
+
+#menu li {
+  display:inline;
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+/*Main image*/
+
+
+/*1º text section: "Our mission / Our Studio*/
+
+#sectionmission{
+  height: 300px;
+  clear:both;
+}
+#mission{
+  width: 50%;
+  padding-top: 100px;
+  float:left;
+}
+
+#studio{
+  width: 50%;
+  padding-top: 100px;
+  float: right;
+  margin: 0 auto;
+}
+
+.mission-studio{
+  width: 70%;
+  clear: both;
+  margin-bottom: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*Our road to health section // 3 circles */
+
+#sectioncircles{
+  height:500px;
+  clear:both;
+}
+#circlesheader{
+  text-align: center;
+}
+#manual-therapy {
+  padding-top: 50px;
+  width: 33%;
+  float: left;
+}
+
+#movement {
+  padding-top: 50px;
+  width: 33%;
+  float: right;
+  margin: 0 auto;
+}
+
+#nutrition {
+  padding-top: 50px;
+  width: 33%;
+  float: right;
+}
+
+.circle-container {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+/*Section Practitioner*/
+
+#sectionpractitioner{
+  height: 300px;
+  clear:both;
+}
+
+#me{
+  height: 300px;
+  width: auto;
+  margin: 0 auto;
+}
+
+
+#image-container{
+  width:30%;
+  float:left;
+  display:flex;
+  align-items: center;
+}
+
+
+#text-ruben{
+  width:60%;
+  float:right;
+}
+
+/* SECOND PAGE: Services*/
+
+ .osteopathy-therapies{
+  height:700 px;
+  clear:both;
+ }
+
+ .osteopathy-therapies h1{
+  padding-top: 100px;
+  text-align: center;
+  
+ }
+.alignleft{
+  padding-top: 50px;
+  width: 33%;
+  float: left;
+  
+}
+
+.alignright{
+  padding-top: 50px;
+  width: 33%;
+  float: right;
+}
+
+.aligncenter{
+  padding-top: 50px;
+  width: 33%;
+  float:right;
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/*MEDIA screens*/
+@media screen and (max-width:1000px){
+/*Our road to health section // 3 circles */
+
+#sectioncircles{
+  height:1000px;
+  clear:both;
+}
+#circlesheader{
+  text-align: center;
+}
+#manual-therapy {
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#movement {
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#nutrition {
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.circle-container {
+  width: 150px;
+  height: 150px;
+}
+}
+
+@media screen and (max-width:700px){
+
+ /*HEADER*/
+
+ #logo {
+  font-size: 180%;
+}
+ #menu{
+  clear:both;
+  float:left;
+  margin-left:10px;
+  margin-bottom: 20px;
+  font-size: 90%;
+  letter-spacing: 1px;
+}
+ 
+  /*HOME PAGE*/
+
+  /*1º text section: "Our mission / Our Studio*/
+
+#sectionmission{
+  height: 400px;
+  
+}
+#mission{
+  width: 100%;
+  padding-top: 100px;
+  
+}
+#studio{
+  width: 100%;
+  padding-top: 30px;
+  
+}
+
+
+
+
+/*Section Practitioner*/
+
+#sectionpractitioner{
+  height: 300px;
+  clear:both;
+}
+
+#me{
+  height: 300px;
+  width: auto;
+  margin: 0 auto;
+}
+
+
+#image-container{
+  width:100%;
+  display:flex;
+  align-items: center;
+}
+
+
+#text-ruben{
+  padding-top:30px;
+  width:100%;
+  text-align: center;
+}
+
+}

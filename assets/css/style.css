@@ -84,6 +84,7 @@ header a{
 #sectionmission{
   height: 300px;
   clear:both;
+  
 }
 #mission{
   width: 50%;
@@ -109,6 +110,7 @@ header a{
 /*Our road to health section // 3 circles */
 
 #sectioncircles{
+  padding-top: 200px;
   height:500px;
   clear:both;
 }
@@ -149,6 +151,8 @@ header a{
 #sectionpractitioner{
   height: 300px;
   clear:both;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 #me{
@@ -204,7 +208,7 @@ footer{
 }
 
 #book-now{
-  width:15%;
+  width:130px;
   margin: 0 auto;
   text-align: center;
   border-radius: 15px;
@@ -353,5 +357,17 @@ footer{
   width:100%;
   text-align: center;
 }
+
+/*footer*/
+
+.social  i{
+  font-size: 130%;
+  color:#ffffff;
+
+}
+
+
+
+
 
 }

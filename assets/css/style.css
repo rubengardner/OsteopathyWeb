@@ -161,45 +161,6 @@ header a{
   float:right;
 }
 
-/* SECOND PAGE: Services*/
-
- .osteopathy-therapies{
-  height:700 px;
-  clear:both;
- }
-
- .osteopathy-therapies h1{
-  padding-top: 100px;
-  text-align: center;
-  
- }
-.alignleft{
-  padding-top: 50px;
-  width: 33%;
-  float: left;
-  
-}
-
-.alignright{
-  padding-top: 50px;
-  width: 33%;
-  float: right;
-}
-
-.aligncenter{
-  padding-top: 50px;
-  width: 33%;
-  float:right;
-  margin: 0 auto;
-}
-
-.text-center{
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-}
-
-
 /*MEDIA screens*/
 @media screen and (max-width:1000px){
 /*Our road to health section // 3 circles */

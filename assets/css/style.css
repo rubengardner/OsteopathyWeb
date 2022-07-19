@@ -82,19 +82,21 @@ header a{
 /*1º text section: "Our mission / Our Studio*/
 
 #sectionmission{
-  height: 300px;
+  height: fit-content;
+  overflow: auto;
   clear:both;
-  
+  background-color: #FFE9C4;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 #mission{
   width: 50%;
-  padding-top: 100px;
   float:left;
+
 }
 
 #studio{
   width: 50%;
-  padding-top: 100px;
   float: right;
   margin: 0 auto;
 }
@@ -111,8 +113,11 @@ header a{
 
 #sectioncircles{
   padding-top: 200px;
-  height:500px;
+  height: fit-content;
+  overflow: auto;
   clear:both;
+  background-color: #F0DBB9;
+  padding-bottom: 200px;
 }
 #circlesheader{
   text-align: center;
@@ -149,10 +154,12 @@ header a{
 /*Section Practitioner*/
 
 #sectionpractitioner{
-  height: 300px;
+  height: fit-content;
+  overflow: auto;
   clear:both;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: #D6C4A5;
 }
 
 #me{
@@ -177,7 +184,8 @@ header a{
 
  /*Footer*/
 footer{
-  height: 300px;
+  height: fit-content;
+  overflow: auto;
   width: 100%;
   clear: both;
   background-color: #3a3a3a;
@@ -259,13 +267,9 @@ footer{
  
 
 /*MEDIA screens*/
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
 /*Our road to health section // 3 circles */
 
-#sectioncircles{
-  height:1000px;
-  clear:both;
-}
 #circlesheader{
   text-align: center;
 }
@@ -288,8 +292,8 @@ footer{
 }
 
 .circle-container {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
 }
 }
 
@@ -314,29 +318,29 @@ footer{
   /*1º text section: "Our mission / Our Studio*/
 
 #sectionmission{
-  height: 400px;
-  
+  font-size:10pt;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 #mission{
   width: 100%;
-  padding-top: 100px;
-  
 }
 #studio{
   width: 100%;
   padding-top: 30px;
   
 }
+.mission-studio{
+  width: 90%;
+}
 
-
-
+/*circle section*/
+.circle-container {
+  width: 200px;
+  height: 200px;
+}
 
 /*Section Practitioner*/
-
-#sectionpractitioner{
-  height: 300px;
-  clear:both;
-}
 
 #me{
   height: 300px;
@@ -370,4 +374,12 @@ footer{
 
 
 
+}
+
+@media screen and (max-width:400px){
+ /*circle section*/
+.circle-container {
+  width: 150px;
+  height: 150px;
+}
 }

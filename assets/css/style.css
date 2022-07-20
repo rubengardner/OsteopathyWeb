@@ -85,7 +85,8 @@ header a{
   height: fit-content;
   overflow: auto;
   clear:both;
-  background-color: #FFE9C4;
+  /*background-color: #FFE9C4;*/
+  background: linear-gradient(to bottom, #FFE9C4, #ffffff);
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -142,15 +143,37 @@ header a{
 }
 
 .circle-container {
-  width: 300px;
-  height: 300px;
-  padding: 30px;
+  width: 350px;
+  height: 350px;
+  
   border-style: solid;
-  border-color: black;
-  border-width: 5px;
+  border-color: #3a3a3a;
+  border-width: 2px;
   border-radius: 50%;
   margin: 0 auto;
 }
+
+/*Images inside the three circles*/
+#manual-therapy-image {
+    background: url('../images/HumanHealingLogo.png') no-repeat center center;
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+   }
+
+   #nutrition-image {
+    background: url('../images/bakio-acantilado.jpg') no-repeat center center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  #movement-image {
+    background: url('../images/bakio-acantilado.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+  }
+
 /*Section Practitioner*/
 
 #sectionpractitioner{
@@ -163,9 +186,10 @@ header a{
 }
 
 #me{
-  height: 300px;
+  height: 500px;
   width: auto;
   margin: 0 auto;
+  padding-left: 50px;
 }
 
 
@@ -296,6 +320,7 @@ footer{
   height: 300px;
 }
 }
+
 
 @media screen and (max-width:700px){
 

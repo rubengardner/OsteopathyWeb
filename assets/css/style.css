@@ -179,27 +179,6 @@ header a{
   color: transparent;
   box-shadow: 0 5px 50px rgba(240, 5, 5, 0.85);
 }
-/*animation*/
-#manualimage:hover {
- 
-  color:#ffffff;
-  background: #3a3a3a;
-  transition:all 0.5s ease-in;
-}
-
-#movementimage:hover {
- 
-  color:#ffffff;
-  background: #3a3a3a;
-  transition:all 0.5s ease-in;
-}
-
-#nutritionimage:hover {
- 
-  color:#ffffff;
-  background: #3a3a3a;
-  transition:all 0.5s ease-in;
-}
 
 .content {
   box-sizing: border-box;
@@ -207,11 +186,23 @@ header a{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: transparent;
   padding: 20px 20px;
   width: 100%;
   height: 100%;
-  
+  text-align: center;
+}
+/*animation*/
+#manualimage:hover,#movementimage:hover, #nutritionimage:hover {
+ 
+  color:#ffffff;
+  background: #3a3a3a;
+  transition:all 0.5s ease-in;
+}
+
+.content:hover {
+ color:#ffffff;
+ transition:all 0.5s ease-in; 
 }
 
 
@@ -364,33 +355,83 @@ footer{
 }
 
 
+/*Schedule section*/
+
+#schedule{
+  height: fit-content;
+  overflow: auto;
+  width: 100%;
+  clear: both;
+  background-color: red;
+  padding-top: 100px;
+}
+
+#containerschedule1{
+  width: 50%;
+  height: fit-content;
+  float:left;
+  overflow: auto;
+}
+
+#containerschedule2{
+  width: 50%;
+  height: fit-content;
+  float:right;
+}
+
+#dayA{
+  width:80%;
+  margin:  0 auto;
+  background: gold;
+  padding-top: 40px;
+  border-radius: 10px;
+  height: fit-content;
+  overflow: auto;
+}
+
+#dayB{
+  width:80%;
+  margin: 0 auto;
+  background: goldenrod;
+  border-radius: 10px;
+
+}
+.daysquare{
+  width:70%;
+  height: fit-content;
+  background-color: #F0DBB9;
+  margin:0 auto;
+  border-radius: 10px;
+  padding-top: 20px;
+  text-align: center;
+
+}
+.individualsection{
+  width:100%;
+}
+.hours{
+  padding-top: 15px ;
+  width:50%;
+  text-align: center;
+  float:left;
+  clear:both;
+
+}
+
+.hours > h3{
+  background-color: #bbb1b1;
+  border-radius: 10px;
+}
+.session{
+  padding-top: 15px ;
+  width:50%;
+  text-align: center;
+  float:right;
+}
 /*MEDIA screens*/
 @media screen and (max-width:1200px){
 /*Our road to health section // 3 squares */
 
-#circlesheader{
-  text-align: center;
-}
-#manual-therapy {
-  padding-top: 50px;
-  width: 100%;
-  margin: 0 auto;
-  clear:both;
-}
-
-#movement {
-  padding-top: 50px;
-  width: 100%;
-  margin: 0 auto;
-  clear:both;
-}
-
-#nutrition {
-  padding-top: 50px;
-  width: 100%;
-  margin: 0 auto;
-  clear:both;
-}
 
 
 
@@ -460,11 +501,29 @@ footer{
   width: 90%;
 }
 
-/*circle section*/
-.circle-container {
-  width: 200px;
-  height: 200px;
+/*Square section*/
+
+#manual-therapy {
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+  clear:both;
 }
+
+#movement {
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+  clear:both;
+}
+
+#nutrition {
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+  clear:both;
+}
+
 
 /*Section Practitioner*/
 
@@ -502,10 +561,3 @@ footer{
 
 }
 
-@media screen and (max-width:400px){
- /*circle section*/
-.circle-container {
-  width: 150px;
-  height: 150px;
-}
-}

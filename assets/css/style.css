@@ -69,14 +69,14 @@ header a{
   height:550px;
   width:100%;
   overflow:hidden;
-  position: relative;
+
 }
 
 #main-image{
   height: 550px;
   width: 100%;
   background: url('../images/meditation-mountain.jpg') no-repeat center center;
-
+  filter: grayscale(100%);
 }
 
 /*1º text section: "Our mission / Our Studio*/
@@ -120,10 +120,12 @@ header a{
   background-color: #F0DBB9;
   padding-bottom: 200px;
 }
+
 #circlesheader{
   text-align: center;
   margin-bottom: 50px;
 }
+
 #manual-therapy {
   
   width: 33.333333%;
@@ -301,8 +303,7 @@ footer{
   background: linear-gradient(to bottom, blue, #ffffff);
   padding-bottom: 200px;
   padding-top: 200px; 
-  padding-left: 20px;
-  padding-right: 20px;
+  
 }
 
 /*Left section: Text*/
@@ -462,8 +463,64 @@ footer{
 }
 
 }
+ /*third page: Booking*/
 
+ #form_section{
+  height: fit-content;
+  overflow: auto;
+  width: 100%;
+  clear: both;
+  background-color: red;
+  padding-top: 100px;
+ }
+ #form_container{
+  height: fit-content;
+  overflow: auto;
+  width: 50%;
+  margin: 0 auto;
+  clear: both;
+  background-color: aqua;
+ }
 
+ .labelleft{
+  float:left;
+  background-color: green;
+  clear:both;
+ }
+ .inputright{
+  border: #3a3a3a 2px solid;
+  border-radius: 10px;
+  float:left;
+  background-color: pink;
+ }
+#explanation{
+  clear:both;
+  float:left;
+  background-color: pink;
+  border: #3a3a3a 2px solid;
+  border-radius: 10px;
+}
+
+#sendbutton{
+  clear:both;
+  float:left;
+  background-color: pink;
+  border: #3a3a3a 2px solid;
+  border-radius: 10px;
+  font-size: 15pt;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+/*map section*/
+#map{
+  height: fit-content;
+  overflow: auto;
+  width: 100%;
+  clear: both;
+  background-color: blue;
+  padding-top: 100px;
+}
 @media screen and (max-width:700px){
 
  /*HEADER*/

@@ -38,31 +38,30 @@
     <form>
         <!--First and last name-->
         <div class="labelleft"><label for="fname">First name:</label></div>
-        <div class="inputright"><input type="text" id="fname" name="fname"  placeholder="First Name" required></div><br>
+        <div class="inputright"> <span><i class="fa fa-user" aria-hidden="true"></i></span><input type="text" id="fname" name="fname"  placeholder="First Name" required></div><br>
 
         <div class="labelleft"><label for="lname">Last name:</label></div>
-        <div class="inputright"><input type="text" id="lname" name="lname" placeholder="Last Name"required></div><br>
+        <div class="inputright"> <span><i class="fa fa-user" aria-hidden="true"></i></span> <input type="text" id="lname" name="lname" placeholder="Last Name"required></div><br>
         <!--Email-->
         <div class="labelleft"><label for="email">Email:</label></div>
-        <div class="inputright"><input type="email" id="email" name="email" placeholder="Email Address"required></div><br>
+        <div class="inputright"> <span><i class="fa fa-envelope" aria-hidden="true"></i></span><input type="email" id="email" name="email" placeholder="Email Address"required></div><br>
         <!--Datalist treatment options-->
-        <div class="labelleft"><label for="treatment_choice">Type of service:</label></div>
-        <div class="inputright"><input list="treatment_option" id="treatment_choice" name="treatment_choice" type="text" placeholder="Select Option" />
+        <div class="labelleft"><label for="treatment_choice">Service:</label></div>
+        <div class="inputright"> <span><i class="fa fa-sort-desc" aria-hidden="true"></i></span><input list="treatment_option" id="treatment_choice" name="treatment_choice" type="text" placeholder="Select Option" />
 	    <datalist id="treatment_option">
 		<option value="1 on 1 session"></option>  
 		<option value="Movement class"></option>
         </datalist></div><br>
 
         <div class="labelleft"><label for="hour_choice">Hour:</label></div>
-        <div class="inputright"><input list="hour_option" id="hour_choice" name="hour_choice" type="text" placeholder="Select Option" />
+        <div class="inputright"><span><i class="fa fa-sort-desc" aria-hidden="true"></i></span><input list="hour_option" id="hour_choice" name="hour_choice" type="text" placeholder="Select Option" />
         <datalist id="hour_option">
             <option value="Mornings"></option>  
             <option value="Afternoons"></option>
             </datalist></div><br>
         <!--Description of what is happening with the pacient-->
         <div class="labelleft"><label for="explanation">Gives us a message:</label></div><br>
-        <textarea id="explanation" name="explanation" rows="4" cols="50" placeholder="Describe your situation here">
-        </textarea><br>
+        <div class="inputright"> <span><i class="fa fa-pencil" aria-hidden="true"></i></span><textarea id="explanation" name="explanation" rows="4" cols="50" placeholder="Describe your situation here"></textarea></div><br>
     <!--Submit button-->
         <input id="sendbutton" type="submit" value="Send"><br>
     </form>

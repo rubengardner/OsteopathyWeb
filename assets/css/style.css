@@ -429,6 +429,91 @@ footer{
   text-align: center;
   float:right;
 }
+/*third page: Booking*/
+
+#form_section{
+  background-image: linear-gradient(#BB944D, #FFEDCB);
+  height: fit-content;
+  overflow: auto;
+  width: 100%;
+  clear: both;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+ #form_container{
+  height: fit-content;
+  overflow: auto;
+  width: 50%;
+  margin: 0 auto;
+  clear: both;
+  background-color:#b1dfd7;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ }
+
+ .labelleft{
+  float:left;
+  clear:both;
+  display: inline-block;
+  width: 25%;
+  text-align: right;
+  padding-top: 20px;
+ }
+ .inputright{
+  float:right;
+  width:65%;
+  padding-top: 20px;
+ 
+ }
+ .inputright > input{
+  
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+  float:right;
+  background-color:#649B92;
+  width:90%;
+  padding: 10px 0 10px 0;
+ }
+
+.inputright > span > i{
+
+  width:5%;
+  float:left;
+  
+
+}
+ 
+#explanation{
+  padding: 10px 0 10px 0;
+  float:left;
+  background-color:#649B92;
+  border-radius: 10px;
+  width:100%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#sendbutton{
+  clear:both;
+  float:right;
+  background-color:#4F4537;
+  border-radius: 10px;
+  font-size: 15pt;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/*map section*/
+#map{
+  height: fit-content;
+  overflow: auto;
+  width: 100%;
+  clear: both;
+  background-color: blue;
+  padding-top: 100px;
+}
 /*MEDIA screens*/
 @media screen and (max-width:1200px){
 /*Our road to health section // 3 squares */
@@ -463,64 +548,7 @@ footer{
 }
 
 }
- /*third page: Booking*/
-
- #form_section{
-  height: fit-content;
-  overflow: auto;
-  width: 100%;
-  clear: both;
-  background-color: red;
-  padding-top: 100px;
- }
- #form_container{
-  height: fit-content;
-  overflow: auto;
-  width: 50%;
-  margin: 0 auto;
-  clear: both;
-  background-color: aqua;
- }
-
- .labelleft{
-  float:left;
-  background-color: green;
-  clear:both;
- }
- .inputright{
-  border: #3a3a3a 2px solid;
-  border-radius: 10px;
-  float:left;
-  background-color: pink;
- }
-#explanation{
-  clear:both;
-  float:left;
-  background-color: pink;
-  border: #3a3a3a 2px solid;
-  border-radius: 10px;
-}
-
-#sendbutton{
-  clear:both;
-  float:left;
-  background-color: pink;
-  border: #3a3a3a 2px solid;
-  border-radius: 10px;
-  font-size: 15pt;
-  padding: 5px 5px 5px 5px;
-  text-align: center;
-}
-
-/*map section*/
-#map{
-  height: fit-content;
-  overflow: auto;
-  width: 100%;
-  clear: both;
-  background-color: blue;
-  padding-top: 100px;
-}
+ 
 @media screen and (max-width:700px){
 
  /*HEADER*/

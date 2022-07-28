@@ -14,21 +14,18 @@ body {
   font-size: 16pt;
   color: #3a3a3a;
   line-height: 1.6;
+  background-color:  rgba(12, 8, 5, 0.8)
 }
 
 /*NAVIGATION BAR AND LOGO*/
 
 
-nav{
-  height:fit-content;
-  background-color:  #0c0805;
-}
-
 #menu {
   font-family: 'Bitter', serif;
   font-size: 110%;
   letter-spacing: 4px;
-  background-color:  #0c0805;
+ 
+  height: fit-content;
 
 }
 
@@ -47,12 +44,13 @@ nav{
 
 #menu a {
   text-decoration: none;
-  color: inherit;
+  color: #b1dfd7;
+  padding: 0 5px 0 5px;
 }
 
 #menu a:hover {
-  background-color: #3a3a3a;
-  color:#ffffff;
+  background-color: rgba(19, 163, 132, 0.2);
+  border-radius: 5px;
 }
 
 .active {
@@ -69,7 +67,7 @@ nav{
 }
 
 #main-image{
-  height: 700px;
+  height: 650px;
   width: 100%;
   background: url('../images/oil_hand.jpg') no-repeat center center;
   background-color: #cccccc; /* Used if the image is unavailable */
@@ -79,8 +77,7 @@ nav{
 }
 #logo {
   width:fit-content;
-  
-  top: 100px;
+  top: 50px;
   left: 30px;
   position: relative;
   padding: 20px 20px 20px 20px;
@@ -94,7 +91,7 @@ nav{
   width:fit-content;
   border-left:#005B4B 4px solid;
   border-bottom:#005B4B 4px solid;
-  top: 150px;
+  top: 70px;
   left: 30px;
   position: relative;
   padding: 10px 5px 10px 15px;
@@ -105,7 +102,7 @@ nav{
   width:fit-content;
   border-left:#005B4B 4px solid;
   border-bottom:#005B4B 4px solid;
-  top: 150px;
+  top: 70px;
   left:30px;
   position: relative;
   padding: 10px 15px 10px 15px;
@@ -567,9 +564,12 @@ footer{
 
 /*MEDIA screens*/
 @media screen and (max-width:1200px){
-/*Our road to health section // 3 squares */
+/*Main image */
 
-
+#logo, #info-text, #location{
+  font-size: 90%;
+  
+}
 
 
 /* SECOND PAGE: Services*/
@@ -603,10 +603,6 @@ footer{
 @media screen and (max-width:700px){
 
  /*HEADER*/
-
- #logo {
-  font-size: 180%;
-}
  #menu{
   clear:both;
   float:left;
@@ -616,7 +612,17 @@ footer{
   letter-spacing: 1px;
 }
  
+
   /*HOME PAGE*/
+
+/*Main image*/
+#main-image{
+  height: 500px;
+}
+#logo, #info-text, #location{
+  font-size: 50%;
+  left:15px;
+}
 
   /*1º text section: "Our mission / Our Studio*/
 

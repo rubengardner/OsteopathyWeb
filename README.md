@@ -3,6 +3,9 @@
 ## Introduction
 Human health is manual therapy and yoga service for everyone. Located in Bilbao, it provides the highest standard in healing through mechanical ways of treatment. The pactioner focuses on using his hand, nutrition and movement to improve health in the patients. The aim of this project is to give visibility to this practioner, showing the methods and techniques he uses in his clinic.
 
+A live website can be found [here](https://rubengardner.github.io/osteopathyweb/index.html).
+  ![Website preview](./assets/images/responsive_devices.png)
+
 ## Table of Contents 
 
 # Table of Contents
@@ -238,7 +241,7 @@ The site was deployed to GitHub pages using the following steps:
 - Select pages on the left menu bar.
 - Click on the master branch and save.
 - This will now generate a link with your website live.
-- The live link can be found here - (https://dhakal79.github.io/Portfolio-project-MS1/)
+- The live link can be found here - (https://rubengardner.github.io/osteopathyweb/)
 
   # Credits
 

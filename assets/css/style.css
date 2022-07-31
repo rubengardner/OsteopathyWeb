@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=PT+Serif&display=swap');
 
-a{
+a {
   text-decoration: none;
 }
+
 * {
   margin: 0;
   padding: 0;
   border: none;
 }
+
 body {
   font-family: 'Bitter', serif;
   font-weight: 400;
@@ -18,24 +20,17 @@ body {
 }
 
 /*NAVIGATION BAR AND LOGO*/
-
-
 #menu {
   font-family: 'Bitter', serif;
   font-size: 110%;
   letter-spacing: 4px;
- 
   height: fit-content;
-
+  line-height: 50px;
 }
 
-
-header > h2{
+header > h2 {
   float:left;
   padding-left: 20px;
-}
-
-#menu {
   line-height: 50px;
 }
 
@@ -58,18 +53,18 @@ header > h2{
 }
 
 #menu .active {
-  text-decoration: underline;
-  
+  text-decoration: underline; 
 }
+
 /*Main image*/
-#main-image-outer{
+#main-image-outer {
   height: fit-content;
   width:100%;
   overflow:hidden;
   font-family: 'PT Serif', serif;
 }
 
-#main-image{
+#main-image {
   height: 650px;
   width: 100%;
   background: url('../images/oil_hand.jpg') no-repeat center center;
@@ -89,17 +84,15 @@ header > h2{
   font-size: 150%;
 }
 
-
-#info-text{
+#info-text {
   width:fit-content;
   border-left:#005B4B 4px solid;
   top: 100px;
   left: 30px;
   position: relative;
-  padding: 10px 5px 10px 15px;
-  
-  
+  padding: 10px 5px 10px 15px; 
 }
+
 #location{
   width:fit-content;
   border-left:#005B4B 4px solid;
@@ -110,8 +103,7 @@ header > h2{
   
 }
 /*1º text section: "Our mission / Our Studio*/
-
-#sectionmission{
+#sectionmission {
   height: fit-content;
   overflow: auto;
   clear:both;
@@ -120,17 +112,17 @@ header > h2{
   padding-top: 100px;
 }
 
-#mission{
+#mission {
   width: 50%;
   float:left;
 }
 
-#studio{
+#studio {
   width: 50%;
   float: right;
 }
 
-.mission-studio{
+.mission-studio {
   width: 70%;
   clear: both;
   margin-bottom: 50px;
@@ -139,17 +131,15 @@ header > h2{
 }
 
 /*Our road to health section // 3 squares */
-
-#sectionsquares{
-  padding-top: 100px;
+#sectionsquares {
+  padding: 100px 0 100px 0;
   height: fit-content;
   overflow: auto;
   clear:both;
   background: linear-gradient(to bottom,#252526, #076856);
-  padding-bottom: 100px;
 }
 
-#squaresheader{
+#squaresheader {
   margin:0 auto;
   width: fit-content;
   text-align: center;
@@ -160,11 +150,9 @@ header > h2{
 }
 
 #manual-therapy {
-  
   width: 33.333333%;
   height: fit-content;
   float: left;
-  background-color:transparent;
 }
 
 #movement {
@@ -179,7 +167,7 @@ header > h2{
   float:right;
 }
 
-#manualimage{
+#manualimage {
   background: url('../images/foot_massage.jpg') center center no-repeat;
   background-color: transparent;
   margin: 0 auto;
@@ -192,7 +180,7 @@ header > h2{
   filter: grayscale(30%);
 }
 
-#movementimage{
+#movementimage {
   background: url('../images/acroyoga.jpg') center center no-repeat;
   width: 90%;
   margin: 0 auto;
@@ -204,7 +192,7 @@ header > h2{
   border-radius: 5px;
 }
 
-#nutritionimage{
+#nutritionimage {
   background: url('../images/breakfast.jpg')center center no-repeat;
   width: 90%;
   height:500px;
@@ -229,9 +217,9 @@ header > h2{
   text-align: center;
 }
 /*animation*/
-#manualimage:hover,#movementimage:hover, #nutritionimage:hover {
- 
-  
+#manualimage:hover,
+#movementimage:hover,
+#nutritionimage:hover {
   background: #201f1f;
   transition:all 0.5s ease-in;
 }
@@ -240,23 +228,24 @@ header > h2{
   color: #b1dfd7;
  transition:all 0.5s ease-in; 
 }
-/*Section Practitioner*/
 
-#sectionpractitioner{
+/*Section Practitioner*/
+#sectionpractitioner {
   height: fit-content;
   overflow: auto;
   clear:both;
   padding-top: 100px;
   padding-bottom: 100px;
   background: linear-gradient(to bottom,#252526, #076856);
-  
 }
-#image-container{
+
+#image-container {
   width:30%;
   float:left;
   padding-left: 20px;
 }
-#me{
+
+#me {
   left:30px;
   width: 100%;
   background-repeat: no-repeat;
@@ -266,24 +255,23 @@ header > h2{
   border-radius: 5px;
 }
 
-
-#text-ruben{
+#text-ruben {
   width: 65%;
   float:right;
   text-align: center;
-  bottom:50%;
-  
+  bottom:50%; 
 }
 
  /*Footer*/
-footer{
+footer {
   height: fit-content;
   overflow: auto;
   width: 100%;
   clear: both;
   background-color: #252526;
 }
- .social{
+
+.social {
   text-align: center;
   padding-top: 80px;
   text-decoration:none;
@@ -291,24 +279,22 @@ footer{
 
 .social > ul > li {
   display: inline;
-  padding: 10%;
-  
+  padding: 10%; 
 }
 
-.social  i{
+.social i {
   font-size: 200%;
   color:#b1dfd7;
-
 }
 
-.book-footer{
+.book-footer {
   width: 100%;
   height: 70px;
   clear:both;
   padding-top: 70px;
 }
 
-#book-now{
+.book-now {
   width:130px;
   margin: 0 auto;
   text-align: center;
@@ -316,24 +302,24 @@ footer{
   background-color: #076856;
 }
 
-#book-now a{
+.book-now a {
   text-decoration:none;
   color: #b1dfd7;
 }
+
 /* SECOND PAGE: Services*/
  /*Services*/
-#therapies{
+#therapies {
   height: fit-content;
   overflow: auto;
   clear:both;
   width: 100%;
   background: linear-gradient(to bottom,#252526, #076856);
-  padding: 100px 0 100px 0; 
-  
+  padding: 100px 0 100px 0;  
 }
 
 /*Left section: Text*/
-#therapies > h2{
+#therapies > h2 {
   clear:both;
   width:fit-content;
   margin:0 auto;
@@ -344,60 +330,60 @@ footer{
   background-color: rgba(19, 163, 132, 0.2);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-#left{
+
+#left {
   float:left;  
   width: 50%;
 }
 
-#right{
+#right {
     float:right;  
     width: 50%;  
 }
 
-  #hamstringstretch{
-    background: url("../images/hamstrings.jpg") center center no-repeat;
-    width: 90%;
-    height:500px;
-    margin: 0 auto;
-    color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    background-size: cover;
-    filter: grayscale(30%);
-    border-radius: 5px;
-  }
+#hamstringstretch {
+  background: url("../images/hamstrings.jpg") center center no-repeat;
+  width: 90%;
+  height:500px;
+  margin: 0 auto;
+  color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-size: cover;
+  filter: grayscale(30%);
+  border-radius: 5px;
+ }
 
-  hr {
-    border-top: 1px solid #b1dfd7;
-    width: 100%;
-  
+hr{
+  border-top: 1px solid #b1dfd7;
+  width: 100%;
 }
 
-.leftinside h3, .rightinside h3{
+.leftinside h3,
+.rightinside h3 {
     font-size: 16pt;
 }
-.leftinside  p, .rightinside p{
+
+.leftinside  p,
+.rightinside p {
     font-size: 12pt;
 }
-.leftinside{
-    float:left;  
-    width: 50%;
-    clear:both;  
-   padding: 10px 0 10px 15px;
+
+.leftinside {
+  float:left;  
+  width: 50%;
+  clear:both;  
+  padding: 10px 0 10px 15px;
 }
 
-.rightinside{
-    float:right;  
-    width: 50%;
-    clear:both;
-    padding: 10px 15px 10px ; 
+.rightinside {
+  float:right;  
+  width: 50%;
+  clear:both;
+  padding: 10px 15px 10px 0; 
 }
-
-
-
 
 /*Schedule section*/
-
-#schedule{
+#schedule {
   height: fit-content;
   overflow: auto;
   width: 100%;
@@ -406,7 +392,7 @@ footer{
   padding: 100px 0 100px 0;
 }
 
-#schedule > h2{
+#schedule > h2 {
   clear:both;
   width:fit-content;
   margin:0 auto;
@@ -417,19 +403,19 @@ footer{
   background-color: rgba(19, 163, 132, 0.2);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-#containerschedule1{
+#containerschedule1 {
   width: 50%;
   height: fit-content;
   float:left;
 }
 
-#containerschedule2{
+#containerschedule2 {
   width: 50%;
   height: fit-content;
   float:right;
 }
 
-#day{
+#day {
   width:80%;
   margin:  0 auto;
   background: #b1dfd7;;
@@ -441,8 +427,7 @@ footer{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-
-.daysquare{
+.daysquare {
   width:90%;
   height: fit-content;
   background-color:#649B92;
@@ -452,50 +437,46 @@ footer{
   text-align: center;
   color:  #252526;;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
 }
-.individualsection{
+
+.individualsection {
   width:100%;
   color: #252526;
 }
-.hours{
+
+.hours {
   padding-top: 30px ;
   width:40%;
   text-align: center;
   float:left;
   clear:both;
-  
-  
- 
-
 }
 
-.hours > h3{
+.hours > h3 {
   background-color: rgba(19, 163, 132, 0.2);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-.session{
+
+.session {
   padding-top: 30px ;
   width:55%;
   text-align: center;
   float:right;
- 
 }
-/*third page: Booking*/
 
-#form_section{
+/*third page: Booking*/
+#form_section {
   background: linear-gradient(to bottom,#252526, #076856);
   height: fit-content;
   overflow: auto;
   width: 100%;
   clear: both;
   font-weight: 800;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0 100px 0;
  }
 
- #form_section > h2{
+ #form_section > h2 {
   clear:both;
   width:fit-content;
   margin:0 auto;
@@ -506,7 +487,7 @@ footer{
   background-color: rgba(19, 163, 132, 0.2);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
- #form_container{
+ #form_container {
   height: fit-content;
   overflow: auto;
   width: 60%;
@@ -518,7 +499,7 @@ footer{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
  }
 
- .labelleft{
+ .labelleft {
   float:left;
   clear:both;
   display: inline-block;
@@ -527,15 +508,15 @@ footer{
   padding-top: 20px;
   color:#252526;
  }
- .inputright{
+
+ .inputright {
   float:right;
   width:65%;
   padding-top: 20px;
   color:#252526; 
  }
  
- .inputright > input{
-  
+ .inputright > input {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border-radius: 5px;
   float:right;
@@ -544,12 +525,12 @@ footer{
   padding: 10px 0 10px 0;
  }
 
-.inputright > span > i{
+.inputright > span > i {
   width:10%;
   float:left;
 }
  
-#explanation{
+#explanation {
   padding: 10px 0 10px 0;
   float:right;
   background-color:#649B92;
@@ -558,7 +539,7 @@ footer{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-#sendbutton{
+#sendbutton {
   clear:both;
   float:right;
   background-color:#252526;
@@ -572,7 +553,7 @@ footer{
 }
 
 /*map section*/
-#map{
+#map {
   height: fit-content;
   overflow: auto;
   width: 100%;
@@ -581,7 +562,7 @@ footer{
   padding: 100px 0 100px 0;
 }
 
-#map > h2{
+#map > h2 {
   clear:both;
   width:fit-content;
   margin:0 auto;
@@ -596,74 +577,87 @@ footer{
 /*MEDIA screens*/
 @media screen and (max-width:1200px){
 
+
   /*Index page*/
-  #sectionmission{
+  #sectionmission {
     font-size: 80%;
   }
 
-  #sectionpractitioner{
+  #sectionpractitioner {
     font-size: 80%;
   }
 
-
-
-/* SECOND PAGE: Services*/
+  /* SECOND PAGE: Services*/
 /* Schedule*/
-
-
-#schedule{
+#schedule {
   font-size: 70%;
 }
 
 /*Booking page*/
-#form_container{
+#form_container {
   width:80%;
 }
+
 }
  
 @media screen and (max-width:700px){
 
  /*HEADER*/
- #menu{
-  font-size: 70%;
+#menu {
+  font-size: 90%;
+  float: left;
+  clear:both;
+  line-height: 20px;
 }
+#menu > li{
+  clear:both;
+  float:left;
+}
+
+header > h2{
+ font-size: 90%;
+ padding: 0 0 0 10px;
+ clear:both;
+}
+
 /*HOME PAGE*/
 /*Main image*/
-#main-image{
+#main-image {
   height: 500px;
 }
 
-#logo{
+#logo {
   font-size: 70%;
   top:50px;
 }
 
-#info-text, #location{
+#info-text,
+#location {
   font-size: 70%;
   top:70px;
 }
 
-  /*1º text section: "Our mission / Our Studio*/
-
-#sectionmission{
+/*1º text section: "Our mission / Our Studio*/
+#sectionmission {
   font-size:60%;
   padding-bottom: 100px;
   padding-top: 100px;
 }
-#mission{
+
+#mission {
   width: 100%;
 }
-#studio{
+
+#studio {
   width: 100%;
   padding-top: 30px;
-  
 }
-.mission-studio{
+
+.mission-studio {
   width: 90%;
 }
 
 /*Square section*/
-
 #manual-therapy {
   padding-top: 50px;
   width: 100%;
@@ -688,107 +682,105 @@ footer{
 
 /*Section Practitioner*/
 
-#image-container{
+#image-container {
   width:100%;
   display:flex;
   align-items: center;
   padding:0;
 }
-#me{
+
+#me {
   height: 300px;
   width: auto;
-  margin: 0 auto;
-   
+  margin: 0 auto;  
 }
 
-
-
-#text-ruben{
+#text-ruben {
   padding-top:30px;
   width:100%;
   text-align: center;
 }
 
 /*footer*/
-
-.social  i{
+.social i {
   font-size: 130%;
-  color:#ffffff;
-
 }
 
 /*Page 2, Services*/
-
 /*Techniques*/
-#left{ 
+#left { 
   width: 100%;
 }
 
-#right{
+#right {
   width: 100%;  
 }
 
-.leftinside h3, .rightinside h3{
+.leftinside h3,
+.rightinside h3 {
   font-size: 60%
 }
-.leftinside  p, .rightinside p{
+
+.leftinside  p,
+.rightinside p {
   font-size: 60%
 }
-#therapies >h2{
+
+#therapies >h2 {
   font-size: 80%
 }
 
-
 /*Schedule*/
-#schedule{
+#schedule {
   font-size: 60%;
 }
 
-#containerschedule1{
+#containerschedule1 {
   width: 100%;
 }
 
-#containerschedule2{
+#containerschedule2 {
   width: 100%;
   margin-top:50px;
 }
+
 /*Page 3, Booking*/
-
-
-
-.labelleft{
-  font-size: 10pt;
-}
+.labelleft {
+font-size: 10pt;
 }
 
-@media screen and (max-width:400px){
+}
 
-  #menu{
-    font-size: 40%;
-   
-  }
-    /*HOME PAGE*/
-  
-  /*Main image*/
-  #logo, #info-text, #location{
+@media screen and (max-width:400px) {
+
+#menu {
+  font-size: 40%;
+}
+
+/*HOME PAGE*/ 
+/*Main image*/
+#logo,
+#info-text, 
+#location {
     font-size: 50%;
 }
 
 /*Practitioner text*/
-#text-ruben{
+#text-ruben {
   font-size: 60%;
 }
 
 /*Booking form*/
-.inputright > input{
+.inputright > input {
   width:80%;
- }
+}
 
-.inputright > span > i{
+.inputright > span > i {
   width:5%;
 }
  
 #explanation{
   width:80%;
 }
+
 }

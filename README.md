@@ -61,6 +61,47 @@ The [Balsamiq](https://balsamiq.com/) application was used to create wireframes.
 
 # 2. Features
 
+ ## All 3 pages:
+
+ ### Header:
+- A navigation bar is placed at the top right corner of the page. A hover effect is used that changes the  background colour of the elements (blue box). The page that is actually being used is underlined
+- The logo is placed on the top left corner 
+
+### Footer:
+- Social media links (for facebook, Linkden and Twitter) are placed at the bottom of the page. All the links will open in a new tab. 
+- A "Book now" button that takes you directly to the the booking (booking.html) page.
+
+## Landing page:
+- The landing page includes a picture and a text that both indicate that the site is refering to a manual therapy and yoga service in a Bilbao. The background color of the image was choosen in accordance to the color scheme.
+
+## Text description:
+- A couple of text paragrhaph that explain what the studio fills like and the goals of the practitioners towards his patients
+
+## Our road to health section:
+- A section that displays 3 images that indicate the philosophy of the practioner, focusiong on manual therapy, movement and nutrition
+-These 3 images have an hoover effect, making the image disapear giving place to a title of each pilar of the therapy with a quote.
+
+## Practioner section
+-An image of the practioner with a brief description of his qualification
+
+## Techniques section
+- A section that separeted into left and right. The left side contains the differnet techniques a patient should expect to expirience during his time at the clinic.
+- An image on the right of a woman doing a yoga pose.
+
+## Schedule section
+- A schedule that shows what times the different services are available. 
+
+## Contact us section
+- This section includes the form which the user will use to get in contact with the practioner to either book a individual therapy session or to attend the different clases.
+-The user will be asked to submit their full name and email address.
+
+## Map section
+-A google map of the location of the clinic (mock). The map opens up on a different tab if pressed "view larger map"
+
+## Features that could be implemented
+- A more detailed section with a more specific qualification background and a couple of images/videos of the practioner doing yoga or treating someone.
+
+
 
 
 

@@ -30,6 +30,10 @@ body {
 }
 
 
+header > h2{
+  float:left;
+  padding-left: 20px;
+}
 
 #menu {
   line-height: 50px;

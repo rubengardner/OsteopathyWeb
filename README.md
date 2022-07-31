@@ -67,40 +67,91 @@ The [Balsamiq](https://balsamiq.com/) application was used to create wireframes.
 - A navigation bar is placed at the top right corner of the page. A hover effect is used that changes the  background colour of the elements (blue box). The page that is actually being used is underlined
 - The logo is placed on the top left corner 
 
+Header screenshot:
+  ![Header page preview](./assets/images/nav_bar.png)
+
 ### Footer:
 - Social media links (for facebook, Linkden and Twitter) are placed at the bottom of the page. All the links will open in a new tab. 
 - A "Book now" button that takes you directly to the the booking (booking.html) page.
 
+Footer screenshot:
+  ![Footer preview](./assets/images/footer.png)
+
 ## Landing page:
 - The landing page includes a picture and a text that both indicate that the site is refering to a manual therapy and yoga service in a Bilbao. The background color of the image was choosen in accordance to the color scheme.
 
+Landing page screenshot:
+  ![Landing page preview](./assets/images/front_image.png)
+
 ## Text description:
 - A couple of text paragrhaph that explain what the studio fills like and the goals of the practitioners towards his patients
+
+Landing page screenshot:
+  ![Header page preview](./assets/images/double_text_section.png)
 
 ## Our road to health section:
 - A section that displays 3 images that indicate the philosophy of the practioner, focusiong on manual therapy, movement and nutrition
 -These 3 images have an hoover effect, making the image disapear giving place to a title of each pilar of the therapy with a quote.
 
+Road to health before hover page screenshot:
+  ![Before hoover](./assets/images/three_square_section.png)
+
+After hoover screenshot:
+  ![After hoover](./assets/images/three_square_section_hoover.png)
+
 ## Practioner section
 -An image of the practioner with a brief description of his qualification
+
+Practioner screenshot:
+  ![Practitioner preview](./assets/images/section_practitioner.png)
 
 ## Techniques section
 - A section that separeted into left and right. The left side contains the differnet techniques a patient should expect to expirience during his time at the clinic.
 - An image on the right of a woman doing a yoga pose.
 
+Technique page screenshot:
+  ![Technique page preview](./assets/images/techniques.png)
+
 ## Schedule section
 - A schedule that shows what times the different services are available. 
+
+Schedule page screenshot:
+  ![Header page preview](./assets/images/schedule.png)
 
 ## Contact us section
 - This section includes the form which the user will use to get in contact with the practioner to either book a individual therapy session or to attend the different clases.
 -The user will be asked to submit their full name and email address.
 
+Form page screenshot:
+  ![Form preview](./assets/images/form.png)
+
 ## Map section
 -A google map of the location of the clinic (mock). The map opens up on a different tab if pressed "view larger map"
+
+Map page screenshot:
+  ![Map preview](./assets/images/map.png)
 
 ## Features that could be implemented
 - A more detailed section with a more specific qualification background and a couple of images/videos of the practioner doing yoga or treating someone.
 
+# 4. Testing
+  
+## 4.1 Testing using tools
+
+### Google Developer Tools:
+Google developer tools (Chrome DevTools) was used as debugging tool. The code was inspected modified here, before changing the source code.
+
+### Responsive Tools:
+[Am I Responsive](http://ami.responsivedesign.is/) site was used to check the responsiveness of the web page
+
+### W3C Validator Tools:
+[W3C Markup](https://validator.w3.org/#validate_by_input+with_options) was used to check for any errors within the HTML pages.
+
+Talk about errors found
+
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within the CSS stylesheet. 
+
+Talk about errors and screenshots
 
 
 

@@ -753,16 +753,13 @@ font-size: 10pt;
 
 @media screen and (max-width:400px) {
 
-#menu {
-  font-size: 40%;
-}
-
 /*HOME PAGE*/ 
 /*Main image*/
 #logo,
 #info-text, 
-#location {
-    font-size: 50%;
+#location,
+h2 {
+    font-size: 60%;
 }
 
 /*Practitioner text*/

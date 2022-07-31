@@ -10,6 +10,7 @@ a {
   border: none;
 }
 
+
 body {
   font-family: 'Bitter', serif;
   font-weight: 400;
@@ -26,6 +27,8 @@ body {
   letter-spacing: 4px;
   height: fit-content;
   line-height: 50px;
+  float:right;
+  padding-right: 20px;
 }
 
 header > h2 {
@@ -36,9 +39,8 @@ header > h2 {
 
 #menu li {
   display:inline;
-  float: right;
   list-style-type: none;
-  margin-right: 30px;
+  padding: 5px 5px 5px 5px;
 }
 
 #menu a {
@@ -107,9 +109,8 @@ header > h2 {
   height: fit-content;
   overflow: auto;
   clear:both;
-  background: linear-gradient(to bottom,#252526, #076856);
-  padding-bottom: 100px;
-  padding-top: 100px;
+  background: linear-gradient(to bottom,#252526, #075547);
+  padding: 100px 0 100px 0;
 }
 
 #mission {
@@ -136,7 +137,7 @@ header > h2 {
   height: fit-content;
   overflow: auto;
   clear:both;
-  background: linear-gradient(to bottom,#252526, #076856);
+  background: linear-gradient(to bottom,#252526, #075547);
 }
 
 #squaresheader {
@@ -234,9 +235,8 @@ header > h2 {
   height: fit-content;
   overflow: auto;
   clear:both;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background: linear-gradient(to bottom,#252526, #076856);
+  padding: 100px 0 100px 0;
+  background: linear-gradient(to bottom,#252526, #075547);
 }
 
 #image-container {
@@ -299,7 +299,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   border-radius: 15px;
-  background-color: #076856;
+  background-color: #075547;
 }
 
 .book-now a {
@@ -314,7 +314,7 @@ footer {
   overflow: auto;
   clear:both;
   width: 100%;
-  background: linear-gradient(to bottom,#252526, #076856);
+  background: linear-gradient(to bottom,#252526, #075547);
   padding: 100px 0 100px 0;  
 }
 
@@ -388,7 +388,7 @@ hr{
   overflow: auto;
   width: 100%;
   clear: both;
-  background: linear-gradient(to bottom,#252526, #076856);
+  background: linear-gradient(to bottom,#252526, #075547);
   padding: 100px 0 100px 0;
 }
 
@@ -415,15 +415,14 @@ hr{
   float:right;
 }
 
-#day {
+.day {
   width:80%;
-  margin:  0 auto;
+  margin: 0 auto;
   background: #b1dfd7;;
-  padding-top: 40px;
   border-radius: 5px;
   height: fit-content;
   overflow: auto;
-  padding:  20px 0 40px 20px;
+  padding: 40px 0 40px 20px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -435,7 +434,7 @@ hr{
   border-radius: 5px;
   padding:  20px 0 20px 0;
   text-align: center;
-  color:  #252526;;
+  color: #252526;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -467,14 +466,14 @@ hr{
 
 /*third page: Booking*/
 #form_section {
-  background: linear-gradient(to bottom,#252526, #076856);
+  background: linear-gradient(to bottom,#252526, #075547);
   height: fit-content;
   overflow: auto;
   width: 100%;
   clear: both;
   font-weight: 800;
   padding: 100px 0 100px 0;
- }
+}
 
  #form_section > h2 {
   clear:both;
@@ -497,7 +496,7 @@ hr{
   padding: 20px 20px 20px 20px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
- }
+}
 
  .labelleft {
   float:left;
@@ -558,7 +557,7 @@ hr{
   overflow: auto;
   width: 100%;
   clear: both;
-  background: linear-gradient(to bottom,#252526, #076856);
+  background: linear-gradient(to bottom,#252526, #075547);
   padding: 100px 0 100px 0;
 }
 
@@ -574,9 +573,23 @@ hr{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+.map-responsive{
+  overflow: hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 /*MEDIA screens*/
 @media screen and (max-width:1200px){
-
 
   /*Index page*/
   #sectionmission {
@@ -587,7 +600,7 @@ hr{
     font-size: 80%;
   }
 
-  /* SECOND PAGE: Services*/
+/* SECOND PAGE: Services*/
 /* Schedule*/
 #schedule {
   font-size: 70%;
@@ -609,6 +622,7 @@ hr{
   clear:both;
   line-height: 20px;
 }
+
 #menu > li{
   clear:both;
   float:left;
@@ -616,7 +630,7 @@ hr{
 
 header > h2{
  font-size: 90%;
- padding: 0 0 0 10px;
+ padding-left: 10px;
  clear:both;
 }
 
@@ -640,8 +654,6 @@ header > h2{
 /*1º text section: "Our mission / Our Studio*/
 #sectionmission {
   font-size:60%;
-  padding-bottom: 100px;
-  padding-top: 100px;
 }
 
 #mission {
@@ -679,9 +691,7 @@ header > h2{
   clear:both;
 }
 
-
 /*Section Practitioner*/
-
 #image-container {
   width:100%;
   display:flex;
@@ -752,20 +762,6 @@ font-size: 10pt;
 }
 
 @media screen and (max-width:400px) {
-
-/*HOME PAGE*/ 
-/*Main image*/
-#logo,
-#info-text, 
-#location,
-h2 {
-    font-size: 60%;
-}
-
-/*Practitioner text*/
-#text-ruben {
-  font-size: 60%;
-}
 
 /*Booking form*/
 .inputright > input {

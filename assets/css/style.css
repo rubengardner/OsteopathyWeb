@@ -501,7 +501,6 @@ hr{
  .labelleft {
   float:left;
   clear:both;
-  display: inline-block;
   width: 25%;
   text-align: right;
   padding-top: 20px;

@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=PT+Serif&display=swap');
-
-a {
-  text-decoration: none;
-}
+@import url(https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=PT+Serif&display=swap);
 
 * {
   margin: 0;
   padding: 0;
   border: none;
 }
-
 
 body {
   font-family: 'Bitter', serif;
@@ -20,9 +15,12 @@ body {
   background-color:  rgba(12, 8, 5, 0.8)
 }
 
+a {
+  text-decoration: none;
+}
+
 /*NAVIGATION BAR AND LOGO*/
 #menu {
-  font-family: 'Bitter', serif;
   font-size: 110%;
   letter-spacing: 4px;
   height: fit-content;
@@ -69,12 +67,12 @@ header > h2 {
 #main-image {
   height: 650px;
   width: 100%;
-  background: url('../images/oil_hand.jpg') no-repeat center center;
+  background: url(../images/oil_hand.jpg) no-repeat center center;
   background-color: #cccccc; /* Used if the image is unavailable */
   background-size: cover;
-  color: #b1dfd7;
-  
+  color: #b1dfd7; 
 }
+
 #logo {
   width:fit-content;
   top: 70px;
@@ -95,15 +93,15 @@ header > h2 {
   padding: 10px 5px 10px 15px; 
 }
 
-#location{
+#location {
   width:fit-content;
   border-left:#005B4B 4px solid;
   top: 100px;
   left:30px;
   position: relative;
   padding: 10px 15px 10px 15px;
-  
 }
+
 /*1º text section: "Our mission / Our Studio*/
 #sectionmission {
   height: fit-content;
@@ -169,7 +167,7 @@ header > h2 {
 }
 
 #manualimage {
-  background: url('../images/foot_massage.jpg') center center no-repeat;
+  background: url(../images/foot_massage.jpg) center center no-repeat;
   background-color: transparent;
   margin: 0 auto;
   width: 90%;
@@ -182,7 +180,7 @@ header > h2 {
 }
 
 #movementimage {
-  background: url('../images/acroyoga.jpg') center center no-repeat;
+  background: url(../images/acroyoga.jpg) center center no-repeat;
   width: 90%;
   margin: 0 auto;
   height:500px;
@@ -194,7 +192,7 @@ header > h2 {
 }
 
 #nutritionimage {
-  background: url('../images/breakfast.jpg')center center no-repeat;
+  background: url(../images/breakfast.jpg)center center no-repeat;
   width: 90%;
   height:500px;
   margin: 0 auto;
@@ -342,7 +340,7 @@ footer {
 }
 
 #hamstringstretch {
-  background: url("../images/hamstrings.jpg") center center no-repeat;
+  background: url(../images/hamstrings.jpg) center center no-repeat;
   width: 90%;
   height:500px;
   margin: 0 auto;
@@ -353,7 +351,7 @@ footer {
   border-radius: 5px;
  }
 
-hr{
+hr {
   border-top: 1px solid #b1dfd7;
   width: 100%;
 }
@@ -403,6 +401,7 @@ hr{
   background-color: rgba(19, 163, 132, 0.2);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
 #containerschedule1 {
   width: 50%;
   height: fit-content;
@@ -572,14 +571,14 @@ hr{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.map-responsive{
+.map-responsive {
   overflow: hidden;
   padding-bottom:56.25%;
   position:relative;
   height:0;
 }
 
-.map-responsive iframe{
+.map-responsive iframe {
   left:0;
   top:0;
   height:100%;
@@ -588,7 +587,7 @@ hr{
 }
 
 /*MEDIA screens*/
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px) {
 
   /*Index page*/
   #sectionmission {
@@ -612,7 +611,7 @@ hr{
 
 }
  
-@media screen and (max-width:700px){
+@media screen and (max-width:700px) {
 
  /*HEADER*/
 #menu {
@@ -622,12 +621,12 @@ hr{
   line-height: 20px;
 }
 
-#menu > li{
+#menu > li {
   clear:both;
   float:left;
 }
 
-header > h2{
+header > h2 {
  font-size: 90%;
  padding-left: 10px;
  clear:both;
@@ -763,7 +762,8 @@ font-size: 10pt;
 @media screen and (max-width:400px) {
 
 /*Booking form*/
-.inputright > input {
+.inputright > input,
+#explanation {
   width:80%;
 }
 
@@ -771,8 +771,4 @@ font-size: 10pt;
   width:5%;
 }
  
-#explanation{
-  width:80%;
-}
-
 }

@@ -32,11 +32,12 @@ The following users types can be benefited from the website:
 * Individuals wanting to inmerge themselves in a new self-care practice.
 
 ## 1.2. Colour scheme and font
-A color scheme that consisisted of different tones of blue and grey was used. this give a relaxing experience to the user. The differnet colors used where:
+A color scheme that consisisted of different tones of blue and grey was used. This gives a relaxing experience to the user. The differnet colors used where:
 
 * #b1dfd7: Primarily for the text colour.
 * #075547, #252526: Used as a linear gradient in the background.
-* rgba(19, 163, 132, 0.2): Used as a background for the headings.
+* rgba(12, 8, 5, 0.8): Usead as background in the nav bar.
+* rgba(19, 163, 132, 0.2): Used as a background for the headings. 
 * #649B92: Used to create the form section and the schedule section.
 
 ## 1.3. Color scheme
@@ -51,7 +52,7 @@ We used the following technologies to choose the color scheme:
 ## 1.4. Site skeleton
 The [Balsamiq](https://balsamiq.com/) application was used to create wireframes. This gave the template of the UI. The concept design of the main page can be seen below:
 
-![balsamic wireframes](assets/images/balsamic.png)
+![Balsamiq wireframes](assets/images/balsamic.png)
 
 # 2. Features
 
@@ -83,7 +84,7 @@ Landing page screenshot:
 - A couple of paragraphs that explain what the studio feels like and the goals of the practitioners towards his patients.
 
 Landing page screenshot:
-  ![Header page preview](./assets/images/double_text_section.png)
+  ![Landing page preview](./assets/images/double_text_section.png)
 
 ## Our road to health section:
 - A section that displays 3 images that indicate the philosophy of the practioner, focusiong on manual therapy, movement and nutrition.
@@ -93,7 +94,7 @@ Road to health before hover page screenshot:
   ![Before hover](./assets/images/three_square_section.png)
 
 After hover screenshot:
-  ![After hooer](./assets/images/three_square_section_hover.png)
+  ![After hover](./assets/images/three_square_section_hover.png)
 
 ## Practioner section
 -An image of the practioner with a brief description of his qualification.
@@ -112,7 +113,7 @@ Technique page screenshot:
 - A schedule that shows what times the different services are available, valuable for the patients to schedule their times.
 
 Schedule page screenshot:
-  ![Header page preview](./assets/images/schedule.png)
+  ![Schedule page preview](./assets/images/schedule.png)
 
 ## Contact us section
 - This section includes the form which the user will use to get in contact with the practioner to either book a individual therapy session or to attend the different clases.
@@ -123,7 +124,7 @@ Form page screenshot:
   ![Form preview](./assets/images/form.png)
 
 The form form was correctly submitted:
-![form page submission](./assets/images/form_sent.png)
+![Form page submission](./assets/images/form_sent.png)
 
 ## Map section
 -A google map of the location of the clinic (mock). The map opens up on a different tab if pressed "view larger map"
@@ -243,8 +244,8 @@ The site was deployed to GitHub pages using the following steps:
 - Create a new repository on GitHub.
 - Click on settings on the navigation bar under the repository title.
 - Select pages on the left menu bar.
-- Click on the master branch and save.
-- This will now generate a link with your website live.
+- Click on the main branch and save.
+- This will generate a link with your live website.
 - The live link can be found here - (https://rubengardner.github.io/osteopathyweb/)
 
   # Credits
